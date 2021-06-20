@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ercr_joystick_control</name>
+  <version>0.0.0</version>
+  <description>This package is used to control the ERCR robot with a joystick.</description>
+
+  <maintainer email="lpimentel3@gatech.edu">Luis Pimentel</maintainer>
+  <author email="lpimentel3@gatech.edu">Luis Pimentel</author>
+
+  <license>TODO</license>
+
+  <!-- <url type="website">http://wiki.ros.org/joystick_control</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>ercr_msgs</build_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>ercr_msgs</exec_depend>
+
+</package>

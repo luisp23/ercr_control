@@ -1,0 +1,10 @@
+<launch>
+
+  <node respawn="true" pkg="joy" type="joy_node" name="ercr_joy" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+
+  <node name="thrust_control" pkg="ercr_joystick_control" type="thrust_control.py" output="screen"/>
+
+</launch>
