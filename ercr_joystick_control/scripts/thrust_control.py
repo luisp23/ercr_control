@@ -21,10 +21,7 @@ class ThrustControl():
 
     
     def thrust_control_callback(self, timer):
-
-        # TODO: Add stamp to message def in ercr_msgs + protobuf message def in ercr_gazebo
-        #self.actuator_control_setpoint.header.stamp = rospy.get_rostime()
-        
+        self.thrust_setpoint.header.stamp = rospy.get_rostime()
         self.thrust_setpoint.left = self.joystick_cmd_left
         self.thrust_setpoint.right = self.joystick_cmd_right
     
