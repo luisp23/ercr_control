@@ -5,6 +5,6 @@
     <param name="deadzone" value="0.12" />
   </node>
 
-  <node name="thrust_control" pkg="ercr_joystick_control" type="thrust_control.py" output="screen"/>
+  <node name="joystick_thrust_control" pkg="ercr_control" type="joystick_thrust_control.py" output="screen"/>
 
 </launch>

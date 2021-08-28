@@ -17,8 +17,6 @@ class ThrustControl():
 
         self.joystick_cmd_left = 0.0
         self.joystick_cmd_right = 0.0
-
-
     
     def thrust_control_callback(self, timer):
         self.thrust_setpoint.header.stamp = rospy.get_rostime()
@@ -31,8 +29,6 @@ class ThrustControl():
     def joystick_cmd_callback(self, joy_cmd):
        self.joystick_cmd_left = joy_cmd.axes[1]
        self.joystick_cmd_right = joy_cmd.axes[4]
-
-
 
 if __name__ == '__main__':
 

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ercr_joystick_control</name>
+  <name>ercr_control</name>
   <version>0.0.0</version>
-  <description>This package is used to control the ERCR robot with a joystick.</description>
+  <description>This package is used to control the ERCR robot in hardware and simulation using various ROS nodes.</description>
 
   <maintainer email="lpimentel3@gatech.edu">Luis Pimentel</maintainer>
   <author email="lpimentel3@gatech.edu">Luis Pimentel</author>
